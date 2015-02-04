@@ -1,0 +1,5 @@
+<bitch-tv-jumbotron image="assets/img/bitch_tv.png" title="Search: {{keywords}}"></bitch-tv-jumbotron>
+
+<div ng-repeat="program in programs">
+    <bitch-tv-program program="program" channel-icon="{{getChannelLogoSrc(program.channel)}}"></bitch-tv-program>
+</div>

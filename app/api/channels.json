@@ -1,0 +1,142 @@
+[
+  {
+    "id": "0",
+    "displayname": "Eurochannel",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo0.gif"
+    }
+  },
+  {
+    "id": "1",
+    "displayname": "TF1",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo1.gif"
+    }
+  },
+  {
+    "id": "2",
+    "displayname": "France 2",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo2.gif"
+    }
+  },
+  {
+    "id": "3",
+    "displayname": "France 3",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo3.gif"
+    }
+  },
+  {
+    "id": "4",
+    "displayname": "Canal+",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo4.gif"
+    }
+  },
+  {
+    "id": "5",
+    "displayname": "France 5",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo5.gif"
+    }
+  },
+  {
+    "id": "6",
+    "displayname": "M6",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo6.gif"
+    }
+  },
+  {
+    "id": "7",
+    "displayname": "Arte",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo7.gif"
+    }
+  },
+  {
+    "id": "8",
+    "displayname": "D8",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo8.gif"
+    }
+  },
+  {
+    "id": "9",
+    "displayname": "W9",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo9.gif"
+    }
+  },
+  {
+    "id": "10",
+    "displayname": "TMC",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo10.gif"
+    }
+  },
+  {
+    "id": "11",
+    "displayname": "NT 1",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo11.gif"
+    }
+  },
+  {
+    "id": "12",
+    "displayname": "NRJ 12",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo12.gif"
+    }
+  },
+  {
+    "id": "13",
+    "displayname": "La Chaîne parlementaire",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo13.gif"
+    }
+  },
+  {
+    "id": "14",
+    "displayname": "France 4",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo14.gif"
+    }
+  },
+  {
+    "id": "15",
+    "displayname": "BFM TV",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo15.gif"
+    }
+  },
+  {
+    "id": "16",
+    "displayname": "iTélé",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo16.gif"
+    }
+  },
+  {
+    "id": "17",
+    "displayname": "D17",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo17.gif"
+    }
+  },
+  {
+    "id": "18",
+    "displayname": "Gulli",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo18.gif"
+    }
+  },
+  {
+    "id": "19",
+    "displayname": "France Ô",
+    "icon": {
+      "src": "http://localhost:3000/assets/api/logos/logo19.gif"
+    }
+  }
+]

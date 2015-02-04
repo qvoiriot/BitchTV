@@ -1,0 +1,7 @@
+<div class="text-center programs-img">
+  <img ng-src="{{getChannelLogoSrc(channel)}}" title="{{channel.displayname}}"></img>
+</div>
+
+<div ng-repeat="program in channel.programs | limitTo: 20">
+    <bitch-tv-program program="program" channel-icon="{{getChannelLogoSrc(channel)}}"></bitch-tv-program>
+</div>

@@ -1,0 +1,27 @@
+<div class="col-sm-6 col-md-4 col-xs-12 programs-block clickable"
+     ng-class="{'programs-block-last': $parent.$last, 'display-program-info': displayInfo}"
+     ng-click="displayInfo = !displayInfo">
+    <div class="col-md-4 col-sm-4 col-xs-4 programs-block-left ">
+        <!--<img ng-src="{{getProgramImgSrc()}}">-->
+        <img ng-src="{{getProgramImgSrc()}}">
+        <img class="hoverChannel" ng-show="hasSpecificImage(program)" ng-src="{{program.channelLogo}}">
+
+        <div class="bitch-center">{{program.date}}</div>
+        <!--<div class="bitch-center mega-hour">{{program.hours.start}}</div>-->
+    </div>
+    <div class="col-md-8 col-sm-8 col-xs-8 programs-block-right ">
+        <h4>{{program.title}}</h4>
+        <div class="row">
+            <div class="col-xs-6 bitch-center hours"><strong class="text-muted">From:</strong><br><span class="mega-hour">{{program.hours.start}}</span></div>
+            <div class="col-xs-6 bitch-center hours"><strong class="text-muted">To:</strong><br><span class="mega-hour">{{program.hours.stop}}</span></div>
+<!--        <p class="text-muted"><strong>Start: </strong>{{start}}</p>
+        <p class="text-muted"><strong>End: </strong>{{stop}}</p>-->
+        </div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 programs-tags">
+        <span ng-repeat="tag in program.category track by $index" class="badge espace pull-right">{{tag}}</span>
+    </div>
+    <div class="description col-md-12 col-sm-12 col-xs-12">
+        <p>{{program.desc.text || "No description for that program!"}}<p>
+    </div>
+</div>
